@@ -5,6 +5,6 @@ LICENSE = "GPLv2+"
 XILINX_EXTENSION = "-xilinx"
 
 FILESEXTRAPATHS += "${THISDIR}/u-boot-xlnx:"
-SRC_URI = "git://github.com/Xilinx/u-boot-xlnx.git;protocol=https"
+SRC_URI = "git://github.com/Xilinx/u-boot-xlnx.git;protocol=git"
 
 include u-boot-extra.inc
